@@ -1,0 +1,148 @@
+* {
+    font-family: "Baskervville", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #fcfcfc;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+svg {
+    height: 15px;
+    width: auto;
+}
+
+#rating{
+    display: flex;
+    justify-content: center;
+}
+
+.stars {
+    height: auto;
+    width: 13px;
+}
+
+#restaurant-info {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 25%;
+    margin-top: 1rem;
+}
+
+#restaurant-info * {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 60%;
+    margin: 3rem auto;
+    padding:1rem 5rem;
+    border: black 1px solid;
+    border-radius: 5em;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div p {
+    margin: 0 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    height: auto;
+}
+
+nav div p:hover {
+    cursor: pointer;
+}
+
+nav div svg{
+    margin: 0 0.75rem;
+}
+
+#login, #cart {
+    height: auto;
+    width: 22px;
+}
+
+
+
+#product-list {
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+.product {
+    display: flex;
+    margin: 2rem 0;
+    width: 95%;
+}
+
+.product-img {
+    height: auto;
+    width: 14rem;
+    margin-right: 1.5rem;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name-price {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.product-name-price p {
+    margin-right: 1em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.product-description {
+    height: 9rem;
+}
+
+.btn-add-cart {
+    padding: 0.75rem 0.5rem;
+    width: 10rem;
+    border-radius: 1em;
+    border: none;
+    color: white;
+    background-color: green;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.btn-add-cart:hover {
+    background-color: rgb(0, 99, 0);
+}
